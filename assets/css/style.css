@@ -1559,3 +1559,27 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.search-bar-1{
+ 
+  width: 30%;
+      border: 2px solid white;
+      border-radius: 30px;
+      border-color: white;
+      font-size: 16px;
+      background-color: transparent;
+      background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
+      background-position: 10px 7px;
+      background-repeat: no-repeat;
+      padding: 8px 20px 8px 40px;
+      -webkit-transition: width 0.8s ease-in-out;
+      transition: width 0.8s ease-in-out;
+      outline: none;
+      opacity: 0.9;
+}
+
+.search-bar{
+  color: white;
+}
+.search-bar-2{
+  padding-top: 100px;;
+}

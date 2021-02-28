@@ -20,3 +20,7 @@ app.get('/api/channelTitle',channelTitleRouter.channelTitle);
 
 
 app.listen(8080)
+//changes for form inputs included.
+app.post('/create-search',function(req,res){
+    return res.redirect('/practice');
+});
